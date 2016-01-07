@@ -1,0 +1,31 @@
+<resources>
+    <string name= "app_name">totally Untitled</string>
+    <string name= "title_activity_maps">totally Untitled</string>
+    <string name= "hello_blank_fragment"> </string>
+    <string name= "wifi_confirm_dialog_title">Would you like to turn off Wifi?</string>
+    <string name= "wifi_confirm_dialog_message">Your GPS location becomes unstable at times if Wifi is on.</string>
+    <string name= "alert_dialog_yes">YES</string>
+    <string name= "alert_dialog_no">NO</string>
+    <string name= "alert_dialog_ok">OK</string>
+    <string name= "alert_dialog_cancel">CANCEL</string>
+    <string name= "save_confirm_dialog_title">Would you like to save this?</string>
+    <string name= "text_on">Stop</string>
+    <string name= "text_off">Start</string>
+    <string name= "eltime">Time passed</string>
+    <string name= "chronometer_format">%s</string>
+    <string name= "distance">Distance</string>
+    <string name= "position">Starting Point</string>
+    <string name= "view">view</string>
+    <string name= "ret">return</string>
+
+    <string name= "empty">No data to be shown.</string>
+    <string name= "second">second</string>
+    <string name= "km">km/h</string>
+    <string name= "speed">Speed</string>
+    <string name= "action_view">list</string>
+    <string name= "Action_quit">quit</string>
+
+    <string name= "address">%s</string>
+
+
+</resources>
