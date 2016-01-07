@@ -13,6 +13,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorAccent"
     tools:context="com.dakaii.pathtracker.MapsActivity" >
 
     <ToggleButton
@@ -82,6 +83,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/toggleButton"
+        android:layout_marginTop="25dp"
     tools:context="com.dakaii.pathtracker.MapsActivity" />
 
 

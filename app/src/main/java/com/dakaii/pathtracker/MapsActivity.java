@@ -74,7 +74,7 @@ public class MapsActivity extends FragmentActivity implements
     private boolean mStop = false;
     private boolean mAsked = false;
     private Chronometer mChronometer;
-    private TextView address;
+
 
     @Override
     protected void onSaveInstanceState(Bundle outState){
@@ -320,7 +320,7 @@ public class MapsActivity extends FragmentActivity implements
 
                 sb.append(item);
             }
-           // TextView address = (TextView) findViewById(R.id.address);
+            TextView address = (TextView) findViewById(R.id.address);
 
             address.setText(sb.toString());
         }
@@ -334,7 +334,7 @@ public class MapsActivity extends FragmentActivity implements
 
         String strDate = new SimpleDateFormat("yyyy/mm/dd").format(mStartTimeMillis);
 
-       // TextView txtAddress = (TextView)findViewById(R.id.address);
+        TextView address = (TextView)findViewById(R.id.address);
 
         ContentValues values = new ContentValues();
         values.put(DatabaseHelper.COLUMN_DATE, strDate);
